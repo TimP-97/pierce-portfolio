@@ -1,0 +1,14 @@
+{
+  "name": "templatemo_528_elegance",
+  "version": "1.0.0",
+  "description": "Tim's Portfoli ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Tim Pierce",
+  "license": "ISC",
+  "dependencies": {
+    "animate": "^1.0.0"
+  }
+}
