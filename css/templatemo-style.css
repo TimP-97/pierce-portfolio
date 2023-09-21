@@ -612,6 +612,8 @@ a#logo {
 }
 .portfolio-item img {
   max-width: 100%;
+  min-height: 240px;
+  object-fit: cover;
   overflow: hidden;
   position: relative;
   z-index: 9;
