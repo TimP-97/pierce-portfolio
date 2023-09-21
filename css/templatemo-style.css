@@ -612,6 +612,8 @@ a#logo {
 }
 .portfolio-item img {
   max-width: 100%;
+  min-height: 240px;
+  object-fit: cover;
   overflow: hidden;
   position: relative;
   z-index: 9;
@@ -623,7 +625,7 @@ a#logo {
   bottom: 0;
   text-align: left;
   padding: 20px;
-  background-color: rgba(250,250,250,0.25);
+  background-color: rgba(170, 117, 224, 1);
   width: 100%;
   height: 60px;
   border-top-left-radius: 0px;
@@ -654,9 +656,9 @@ a#logo {
   background-color: rgba(250,250,250,0.9)
 }
 .portfolio-item:hover .thumb-inner h4 {
-   margin-top: 30%;
+   margin-top: 10%;
   color: #1e1e1e;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /*==============================================
@@ -820,8 +822,8 @@ textarea.form-control {
 }
 .skill-item {
   border-bottom: 1px solid rgba(250,250,250,0.1);
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .last-skill {
   border-bottom: none;
@@ -860,7 +862,7 @@ textarea.form-control {
 .filled-bar {
   position: absolute;
   z-index: 99;
-  width: 70%;
+  width: 100%;
   height: 6px;
   background-color: #AA75E0;
   border-radius: 3px;

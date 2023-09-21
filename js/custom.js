@@ -108,11 +108,12 @@
         }
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
-                loop: false,
+                loop: true,
                 nav: false,
                 dots: true,
-                items: 3,
-                autoplay: true,
+                items: 1,
+                margin: 0,
+                autoplay: false,
                 smartSpeed: 700,
                 autoplayTimeout: 4000,
                 responsive: {
@@ -138,7 +139,7 @@
                 dots: true,
                 items: 1,
                 margin: 30,
-                autoplay: true,
+                autoplay: false,
                 smartSpeed: 700,
                 autoplayTimeout: 6000,
                 responsive: {
